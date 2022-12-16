@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: #00008B;
+    --main-heading-font-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-heading-font-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

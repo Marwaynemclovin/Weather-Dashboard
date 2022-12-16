@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="container overflow-hidden">
+        <div class="row gy-5 pt-4">
+          <div class="col-3">
+            <div class="p-3 border bg-light">
+                <p class="h3">Search for a City:</p>
+                <form class="d-flex flex-wrap">
+                    <input class="form-control flex-fill" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-primary btn-sm btn-block mt-2 flex-fill">Search</button>            
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="p-3 border bg-light">
+                <p class="h3 city">City</p>
+                <img src="" alt="" class="icon"/>
+                <p class="temp mt-2">Temp</p>
+                <p class="wind">Wind</p>
+                <p class="humid">Humid</p>
+            </div>
+        </div>
+         <div class="col-3">
+            <div class="p-3 border bg-light"> 
+                <p class="h3 city">Previous Searches</p>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="p-3 border bg-light">
+                <p class="h4">5-Day Forecast:</p> 
+                <div class="card-group">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title date">Date</h5>
+                        <img src="" alt="" class="icon"/>
+                        <p class="card-text temp">Temp</p>
+                        <p class="card-text wind">Wind</p>
+                        <p class="card-text humid">Humid</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title date">Date</h5>
+                        <img src="" alt="" class="icon"/>
+                        <p class="card-text temp">Temp</p>
+                        <p class="card-text wind">Wind</p>
+                        <p class="card-text humid">Humid</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title date">Date</h5>
+                        <img src="" alt="" class="icon"/>
+                        <p class="card-text temp">Temp</p>
+                        <p class="card-text wind">Wind</p>
+                        <p class="card-text humid">Humid</p>                    
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title date">Date</h5>
+                            <img src="" alt="" class="icon"/>
+                            <p class="card-text temp">Temp</p>
+                            <p class="card-text wind">Wind</p>
+                            <p class="card-text humid">Humid</p>                     
+                        </div>
+                        </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title date">Date</h5>
+                            <img src="" alt="" class="icon"/>
+                            <p class="card-text temp">Temp</p>
+                            <p class="card-text wind">Wind</p>
+                            <p class="card-text humid">Humid</p>                      
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
