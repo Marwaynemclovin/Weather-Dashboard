@@ -28,7 +28,7 @@ Feel free to download or clone via your favourite code editor!
 |  └── css
 |    └── style.css
 |  └── js
-└──    └── javascript
+|    └── javascript
 
 ```
 
