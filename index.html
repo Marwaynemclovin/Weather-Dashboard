@@ -19,22 +19,28 @@
             <div class="p-3 border bg-light">
                 <p class="h3">Search for a City:</p>
                 <form class="d-flex flex-wrap">
-                    <input class="form-control flex-fill" type="search" placeholder="Search" aria-label="Search">
-                    <button type="button" class="btn btn-primary btn-sm btn-block mt-2 flex-fill">Search</button>            
+                    <input id="city" class="form-control flex-fill" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" id="search" class="btn btn-primary btn-sm btn-block mt-2 flex-fill">Search</button>            
             </div>
         </div>
         <div class="col-9">
             <div class="p-3 border bg-light">
-                <p class="h3 city">City</p>
+                <p id="main-city" class="h3">City</p>
                 <img src="" alt="" class="icon"/>
-                <p class="temp mt-2">Temp</p>
-                <p class="wind">Wind</p>
-                <p class="humid">Humid</p>
+                <p id="main-temp" class="mt-2">Temp: 20</p>
+                <p id="main-wind">Wind: 15 km/h</p>
+                <p id="main-humid">Humid 20%</p>
             </div>
         </div>
          <div class="col-3">
             <div class="p-3 border bg-light"> 
                 <p class="h3 city">Previous Searches</p>
+                <ul>
+                    <li>City 1</li>
+                    <li>City 2</li>
+                    <li>City 3</li>
+                    <li>City 4</li>
+                </ul>
             </div>
         </div>
         <div class="col-9">
