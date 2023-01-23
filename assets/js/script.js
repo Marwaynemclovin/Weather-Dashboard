@@ -6,6 +6,15 @@ var searchButton = document.getElementById('search');
 const apiKey = '83f8c108561a5fbccfe85952fcc76d3a';
 
 searchButton.addEventListener('click', getWeather);
+var cityInput = document.getElementById('city');
+cityInput.addEventListener('keyup', function(event){
+  console.log(event);
+  event.preventDefault();
+  // if (event.keyCode === 13)
+    // getWeather();
+    
+});
+
 
 function getWeather (){
   var city = document.getElementById('city').value;
