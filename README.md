@@ -1,6 +1,6 @@
 # Weather-Dashboard
 ## Link to Deployed Application
-Deployed @ 
+Deployed @ https://marwaynemclovin.github.io/Weather-Dashboard/
 
 ## Description
 This is a weather dashboard which allows a city's current weather and 5 day forecast to be displayed! It uses a combintation of Bootstrap 5, and OpenWeather API to create and display the application dynamically. Feel free to use it as your daily weather application!
@@ -9,11 +9,11 @@ This is a weather dashboard which allows a city's current weather and 5 day fore
 [Screenshots of Application](#Screenshots-of-Application) <br>
 [Local Installation](#Local-Installation) <br>
 [File Structure](#File-Structure) <br>
-[Credits and Resources](#Credits-and-Resources) <br>
 [License](#License)
 
 ## Screenshots of Application
 
+<img width="1442" alt="Screen Shot 2023-01-28 at 11 05 58 pm" src="https://user-images.githubusercontent.com/112296194/215265549-4d04649a-50a1-4689-a6d4-fe8219092b0a.png">
 
 
 ## Local Installation
@@ -31,9 +31,6 @@ Feel free to download or clone via your favourite code editor!
 |    └── javascript
 
 ```
-
-## Credits and Resources
-
 
 ## License
 Copyright (c) [2022] [Marwin Manlangit]
